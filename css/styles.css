@@ -12,6 +12,37 @@ body {
 	border-color: transparent !important;
 }
 
+.start {
+	border: 2px solid white;
+  	border-radius: 9px;
+  	color: #2c3e50;
+  	padding: 10px 27px;
+  	line-height: 1.3333333;
+	background-color: transparent;
+}
+
 .text-center {
 	color: #fff !important;
+}
+
+.lead img {
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0 0 5px #000;
+	height: 195px;
+    margin-top: -5px;
+	margin: -5px 20px 0;
+}
+
+.lead pos2, pos3, pos4 {
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0 0 5px #000;
+	color: #2c3e50;
+	padding: 85px;
+	margin: 0 15px;
+}
+
+.lead p {
+    padding: 30px;
 }
