@@ -64,7 +64,7 @@ function check(str, id) {
 		                
 		                if (inputValue === "") {     
 			                swal.showInputError("Please enter your name!");     
-			                return false   
+			                return false;   
 			            }      
 			            
 			            swal("Great Job! " + inputValue,  "You've finished the game!" , "success");
