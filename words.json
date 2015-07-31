@@ -1,11 +1,17 @@
 [
-  {"word": "pen",
-    "image": "images/pen.png"
+  {"word": "pen","image": 
+	  "images/pen.png",
+	  "w_id":"1",
+	  "i_id":"2"
   }, 
   {"word": "blue",
-    "image": "images/blue.png"
+	  "image": "images/blue.png",
+	  "w_id":"3",
+	  "i_id":"4"
   },
   {"word": "walk",
-    "image": "images/to_walk.png"
+	  "image": "images/to_walk.png",
+	  "w_id":"5",
+	  "i_id":"6"	
   }
 ]

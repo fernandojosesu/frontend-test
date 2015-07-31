@@ -1,35 +1,41 @@
+<!-- Matching Game Test V1.0 -->
 <!DOCTYPE html>
-<html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Matching Game</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!--style references-->		
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/sweetalert.css" rel="stylesheet">
 	</head>
+	
 	<body>
-<div class="navbar navbar-default navbar-static-top">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Matching Game</a>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  
-  <div class="text-center">
-    <p class="lead first">Let's Go!</p>
-	<p class="lead second">Let's Go!</p>
-  </div>
-  
-</div><!-- end of container -->
+		<div class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Matching Game</a>
+				</div>
+			</div>
+		</div> <!--end of navbar	--> 
 		
-	<!-- script references -->
+		<div class="container">
+			<div class="text-center">
+				<input type="hidden" id="str" />
+                <input type="hidden" id="ID" />
+                <input type="hidden" id="demo1"/>
+                <input type="hidden" id="count" value="0"/>
+                <p class="lead first" id="doneall"></p>
+                <p class="lead second"></p>
+            </div>
+        </div> <!--end of container--> 
+            
+		<!--script references-->		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
-	</body>
-</html>
+		<script src="js/sweetalert.min.js"></script>
+	</body> <!--end of body--> 
+</html> <!--end of html--> 
