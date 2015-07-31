@@ -68,6 +68,7 @@ function check(str, id) {
 			            }      
 			            
 			            swal("Great Job! " + inputValue,  "You've finished the game!" , "success");
+						setTimeout(function () { location.reload(1); }, 5000);
 			    });
                 
             //If 2 cards match
